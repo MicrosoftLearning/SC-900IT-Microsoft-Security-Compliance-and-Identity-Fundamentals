@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Azure Sentinel'
     module: 'Modulo 3. Lezione 3. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione delle funzionalità di sicurezza di Azure Sentinel'
