@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Service Trust Portal'
     module: 'Modulo 1. Lezione 2. Descrivere i principi di sicurezza e conformità di Microsoft: esplorazione di Service Trust Portal'
