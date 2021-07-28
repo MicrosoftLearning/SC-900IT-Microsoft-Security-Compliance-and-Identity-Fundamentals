@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Impostazioni utente di Azure Active Directory'
     module: 'Modulo 2. Lezione 1. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: esplorare i servizi e i tipi di identità di Azure AD'
