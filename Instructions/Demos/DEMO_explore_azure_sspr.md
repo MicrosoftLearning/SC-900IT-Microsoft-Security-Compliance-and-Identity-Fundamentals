@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Reimpostazione della password self-service di Azure Active Directory'
     module: 'Modulo 2. Lezione 2. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: descrizione dei vari metodi di autenticazione di Azure AD'
