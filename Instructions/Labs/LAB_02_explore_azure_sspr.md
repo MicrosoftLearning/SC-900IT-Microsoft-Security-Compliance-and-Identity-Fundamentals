@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Esplorazione dell'autenticazione di Azure AD con la reimpostazione della password self-service'
     module: 'Modulo 2. Lezione 2. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: descrizione dei vari metodi di autenticazione di Azure AD'
