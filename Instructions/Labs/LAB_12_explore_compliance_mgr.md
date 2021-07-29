@@ -1,6 +1,6 @@
 ﻿---
 lab:
-    title: 'Esplorazione del Centro conformità e Compliance Manager di Microsoft 365'
+    title: 'Esplorazione del Centro conformità Microsoft 365 e Compliance Manager'
     module: 'Modulo 4. Lezione 1. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di gestione della conformità di Microsoft'
 ---
 
