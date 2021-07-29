@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Esplorazione di Service Trust Portal'
     module: 'Modulo 4. Lezione 1. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di gestione della conformità di Microsoft'
