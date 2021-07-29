@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Esplorazione della Gestione dei rischi Insider in Microsoft 365'
     module: 'Modulo 4. Lezione 3. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: Descrizione delle funzionalità di rischio Insider in Microsoft 365'

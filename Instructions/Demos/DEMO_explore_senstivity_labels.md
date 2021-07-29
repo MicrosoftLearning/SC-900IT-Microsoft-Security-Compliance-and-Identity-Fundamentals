@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Etichette di riservatezza in Microsoft 365'
     module: 'Modulo 4. Lezione 2. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione delle funzionalità di protezione e governance delle informazioni in Microsoft 365'

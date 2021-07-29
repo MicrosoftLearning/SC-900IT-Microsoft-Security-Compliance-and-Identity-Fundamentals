@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Criteri di Azure'
     module: 'Modulo 4. Lezione 5. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: descrizione dei criteri di Azure'

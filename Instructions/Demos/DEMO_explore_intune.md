@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Microsoft Intune'
     module: 'Modulo 3. Lezione 6. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione della sicurezza degli endpoint con Microsoft Intune'

@@ -1,4 +1,4 @@
-﻿---
+---
 Demo:
     title: 'Accesso condizionale ad Azure Active Directory'
     module: 'Modulo 2. Lezione 3. Descrizione delle funzionalità delle soluzioni Microsoft per la gestione delle identità e degli accessi: esplorazione delle funzionalità di gestione degli accessi di Azure AD'
