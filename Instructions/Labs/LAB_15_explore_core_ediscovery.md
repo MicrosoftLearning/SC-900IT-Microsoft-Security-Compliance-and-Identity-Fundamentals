@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Esplorazione del flusso di lavoro di Core eDiscovery'
     module: 'Modulo 4. Lezione 4. Descrizione delle funzionalità delle soluzioni di conformità Microsoft: Descrivere le funzionalità di eDiscovery e audit di Microsoft 365'
