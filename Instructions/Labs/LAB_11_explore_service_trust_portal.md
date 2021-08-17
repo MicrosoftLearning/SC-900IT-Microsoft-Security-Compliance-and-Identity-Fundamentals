@@ -17,7 +17,7 @@ In questo lab, verranno esplorate le funzionalità e il contenuto disponibili da
 
 1. Aprire Microsoft Edge.
 
-1. Nella barra degli indirizzi immettere **https://aks.ms/STP**.  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno. 
+1. Nella barra degli indirizzi immettere **https://aka.ms/STP**.  In questo modo, si passerà alla pagina di destinazione di Service Trust Portal. Service Trust Portal contiene i dettagli relativi all'implementazione di Microsoft dei controlli e dei processi che proteggono i servizi cloud e i dati dei clienti al loro interno. 
 
 1. Per accedere ad alcune delle risorse in Service Trust Portal, è necessario accedere come utente autenticato con l'account di Microsoft Cloud Service e rivedere e accettare l'accordo di riservatezza di Microsoft per i materiali di conformità. Nell'angolo in alto a destra della pagina di destinazione di Service Trust Portal, verrà visualizzata l'opzione per l'accesso. **Accedere** utilizzando le credenziali di amministratore e, quando richiesto, selezionare **Accetto** per accettare l'accordo di riservatezza per i materiali di conformità.
 
