@@ -33,27 +33,27 @@ In questo lab, verrà esplorata la home page del centro conformità Microsoft 36
 1. È possibile aggiungere schede selezionando **+ Aggiungi schede**.  Si apre la finestra Aggiungi schede alla home page.  Posizionare il cursore del mouse sulla scheda Catalogo soluzioni mostrata in questa finestra e trascinarla nella posizione della schermata iniziale in cui si vuole che la scheda sia posizionata.
 1. Dal riquadro di spostamento sinistro della home page del centro conformità Microsoft 365, tenere presente che sotto Soluzioni è visualizzato solo Catalogo.  Dal riquadro di spostamento selezionare **[...Mostra tutto]**.  Osservare in che modo tutte le soluzioni aggiuntive vengono visualizzate sotto la sezione delle soluzioni.  
 1. Selezionare **Mostra meno** per nascondere alcuni elementi.
-1. In qualità di amministratore della conformità, può esserci un insieme di soluzioni da gestire per l'organizzazione e da avere sempre elencate nel riquadro di spostamento.  Per personalizzare le preferenze, selezionare **Personalizza navigazione**.  
-1. Dalla finestra Personalizzare il riquadro di spostamento, selezionare **Controllo**, **Prevenzione della perdita dei dati** e **eDiscovery**.  Selezionare **Salva** nella parte inferiore della finestra.  Osservare in che modo la sezione Soluzioni del riquadro di spostamento è stata aggiornata.
+1. In qualità di amministratore della conformità, è possibile che esista un insieme di soluzioni da gestire per l'organizzazione e potrebbe essere utile che nel riquadro di spostamento visualizzato vengano elencate solo queste soluzioni. Per personalizzare le preferenze, selezionare **Personalizza barra di spostamento**.  
+1. Nella finestra Personalizzare il riquadro di spostamento notare che è possibile selezionare gli elementi da visualizzare nel riquadro di spostamento e deselezionare quelli da escludere. Per gli scopi di questi lab mantenere selezionati tutti gli elementi e fare clic su **Salva** nella parte inferiore della finestra.  
 1. Lasciare la scheda del browser aperta.
 
 #### Attività 2. Scoprire la posizione di conformità dell'organizzazione attraverso Compliance Manager.
 
 1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365, selezionare **Compliance Manager**.  In alternativa, è possibile selezionare Compliance Manager sulla barra del titolo della scheda Compliance Manager.
 
-1. Dalla parte superiore della pagina del Compliance Manager, assicurarsi che sia selezionato **Panoramica** (sottolineato). Scorrere verso il basso per vedere tutte le informazioni disponibili sulla pagina.  Le informazioni su questa pagina includono il punteggio di conformità, come percentuale e basato sui punti raggiunti e sui punti gestiti da Microsoft.   Verranno visualizzate le azioni di miglioramento chiave, le soluzioni che influiscono sul punteggio e la suddivisione del punteggio di conformità per categoria o valutazione.
+1. Dalla parte superiore della pagina del Compliance Manager, assicurarsi che sia selezionato **Panoramica** (sottolineato). Scorrere verso il basso per vedere tutte le informazioni disponibili sulla pagina.  Le informazioni in questa pagina includono il punteggio di conformità, i punti raggiunti e i punti gestiti da Microsoft.   Verranno visualizzate le azioni di miglioramento chiave, le soluzioni che influiscono sul punteggio e la suddivisione del punteggio di conformità per categoria o valutazione.
 
-1. Dalla parte superiore della pagina Panoramica, selezionare **Azioni di miglioramento**.  Queste sono azioni che possono migliorare il punteggio di conformità dell'organizzazione, l'aggiornamento dei punti può richiedere fino a 24 ore.  Notare i filtri disponibili.
+1. Dalla parte superiore della pagina Panoramica, selezionare **Azioni di miglioramento**.  Queste sono le azioni che consentono di migliorare il punteggio di conformità dell'organizzazione. Si noti che se si eseguono azioni di miglioramento, per l'aggiornamento dei punti potrebbero essere necessarie fino a 24 ore.  Notare i filtri disponibili.
 
 1. Dall'elenco delle azioni di miglioramento, selezionare **Abilita reimpostazione della password self-service**.  Ogni azione di miglioramento ha una sezione panoramica insieme alla pagina dei dettagli da cui è possibile selezionare l'implementazione, i test, i relativi standard e requisiti normativi, e i documenti.
 
-1. Uscire da questa azione di miglioramento selezionando la **X** nell'angolo in alto a destra dello schermo.  In alternativa, selezionare **Azioni di miglioramento** dal percorso di navigazione in alto a sinistra della pagina.  Ora si è di nuovo alla pagina delle azioni di miglioramento.
+1. Uscire dall'azione di miglioramento selezionando **Azioni di miglioramento** dal percorso di navigazione in alto a sinistra della pagina.  Ora si è di nuovo alla pagina delle azioni di miglioramento.
 
 1. Dalla parte superiore della pagina selezionare **Soluzioni**. Questa pagina mostra come le soluzioni contribuiscono al punteggio e le rispettive opportunità di miglioramento rimanenti.
 
 1. Dalla parte superiore della pagina selezionare **Valutazioni**. Questa pagina mostra la Baseline per la protezione dei dati.  Questa è una valutazione predefinita che Microsoft offre in Compliance Manager per la baseline per la protezione dei dati di Microsoft 365.  Questa valutazione della baseline ha una serie di controlli per i principali regolamenti e standard per la protezione dei dati e la governance generale dei dati. Compliance Manager diventa più utile quando si costruiscono e si gestiscono le proprie valutazioni per soddisfare le esigenze particolari della propria organizzazione.
 
-1. Selezionare **Baseline per la protezione dei dati**.  Osservare le informazioni disponibili nella scheda di avanzamento.  È anche possibile visualizzare lo stato dei controlli per questa valutazione, le azioni di miglioramento e le azioni Microsoft.  
+1. Selezionare **Baseline per la protezione dei dati**.  Osservare le informazioni disponibili nella scheda di avanzamento.  È anche possibile visualizzare informazioni sui controlli, le azioni di miglioramento e le azioni Microsoft.  
 
 1. Dalla parte superiore sinistra della pagina, sopra a Valutazioni (il percorso di navigazione), selezionare **Valutazione** per tornare alla pagina delle valutazioni.  
 

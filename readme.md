@@ -1,4 +1,4 @@
-﻿# SC-900: Concetti fondamentali su sicurezza, conformità e identità Microsoft
+# SC-900: Concetti fondamentali su sicurezza, conformità e identità Microsoft
 
 Questo repository include gli script demo e le istruzioni per i lab di **SC-900T00: Concetti fondamentali su sicurezza, conformità e identità Microsoft**.  L'uso degli script demo e dei lab presuppone l'accesso al tenant preconfigurato WWL M365 Enterprise 2019 SPE_E5, disponibile tramite un organizzatore autorizzato del lab (Authorized Lab Hoster) e l'uso di una sottoscrizione Azure con Azure Pass.  Azure Pass è necessario per garantire che la sottoscrizione di Azure sia configurata con le stesse credenziali del tenant Microsoft 365 fornito dall'organizzatore autorizzato del lab (Authorized Lab Hoster) ovvero Azure Pass viene riscattato con le stesse credenziali del tenant Microsoft 365.  Ciò consente un'esperienza più trasparente nel passaggio da Microsoft 365 ad Azure e vice versa.  Gli script demo e le istruzioni per i lab potrebbero essere eseguiti sul tenant Microsoft 365 e con la sottoscrizione Azure di un utente, ma ciò non è garantito, in quanto alcune funzionalità potrebbero non essere abilitate con la sottoscrizione personale dell'utente.
 
@@ -31,7 +31,7 @@ Le interfacce utente (UI) di Microsoft 365 e Azure vengono continuamente aggiorn
 
 ## Come è possibile contribuire?
 
-- Qualsiasi MCT può inviare una richiesta pull al codice o al contenuto nel repository di GitHub; Microsoft e l'autore del corso effettueranno un triage e includeranno le modifiche al contenuto e al codice lab secondo necessità.
+- Tutti i MCT possono inviare una richiesta pull per il codice o il contenuto nel repository GitHub. Microsoft e l’autore del corso valuteranno la richiesta e implementeranno le eventuali modifiche al contenuto e al codice del lab.
 
 - È possibile inviare bug, modifiche, miglioramenti e idee.  È stata trovata una nuova funzionalità Azure?  può inviare una nuova demo.
 

@@ -18,7 +18,7 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Compare una panoramica della pagina Criteri. Notare le informazioni disponibili nel dashboard.
 
-1. Dal riquadro di spostamento sinistro, sotto Creazione, selezionare **Assegnazioni**.  Si noterà che è già presente un'assegnazione di criteri, selezionare **Impostazione predefinita del Centro sicurezza di Azure**.  Si noti il campo descrittivo: questo è il set di criteri predefinito monitorato dal Centro sicurezza di Azure. È stato assegnato automaticamente come parte dell'onboarding al Centro sicurezza. L'assegnazione predefinita contiene solo criteri di controllo. Per ulteriori informazioni visitare https://aka.ms/ascpolicies-ita.  Tornare alla pagina Assegnazioni di criteri selezionando la **X** nell'angolo in alto a destra dello schermo.
+1. Dal riquadro di spostamento sinistro, sotto Creazione, selezionare **Assegnazioni**.  Si noterà che è già presente un'assegnazione di criteri, selezionare **Impostazione predefinita del Centro sicurezza di Azure**.  Controllare il campo della descrizione. NOTA: il campo della descrizione fa riferimento al Centro sicurezza di Azure, rinominato Microsoft Defender for Cloud.  Tornare alla pagina Assegnazioni di criteri selezionando la **X** nell'angolo in alto a destra dello schermo.
 
 1. Dalla parte superiore della pagina selezionare **Assegna criterio**.
 
@@ -50,7 +50,7 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Dalla scheda Generale di Crea un gruppo di risorse, lasciare il campo Sottoscrizione così come è, Azure Pass - Sponsorizzazione.
 
-1. Nel campo Gruppo di risorse immettere **SC900-Lab**.
+1. Nel campo Gruppo di risorse immettere **SC900-Labs**.
 
 1. Lasciare l'impostazione Area geografica sul valore predefinito, quindi selezionare **Avanti: Tag**.
 
@@ -60,7 +60,7 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità.
 
-1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa 'SC900-Labs' non è consentita dal criterio".  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
+1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa ‘SC900-Labs' non è consentita dai criteri."  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
 
 1. Dalla finestra Crea un gruppo di risorse selezionare **<Precedente**.
 

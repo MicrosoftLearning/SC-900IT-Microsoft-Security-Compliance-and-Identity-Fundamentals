@@ -1,20 +1,20 @@
 ---
 lab:
-    title: 'Esplorazione di Azure Sentinel'
-    module: 'Modulo 3. Lezione 3. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione delle funzionalità di sicurezza di Azure Sentinel'
+    title: 'Esplorare Microsoft Sentinel'
+    module: 'Modulo 3. Lezione 3. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: Descrivere le funzionalità di sicurezza di Microsoft Sentinel'
 ---
 
 
-# Lab: Esplorazione di Azure Sentinel 
+# Lab: Esplorare Microsoft Sentinel 
 
 ## Scenario del lab
-In questo lab verrà presentato il processo per creare un'istanza di Azure Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Azure Sentinel.  Una volta completata l'impostazione di base, si esamineranno i passaggi per connettere Sentinel alle proprie origini dati, utilizzare le analisi integrate per ricevere notifiche riguardo a un evento sospetto e infine verrà esplorata la funzionalità di automazione.  
+Questo lab illustrerà il processo di creazione di un'istanza di Microsoft Sentinel.  Verranno anche configurate le autorizzazioni per garantire l'accesso alle risorse che verranno distribuite per supportare Microsoft Sentinel.  Una volta terminata la configurazione di base, verranno illustrati i passaggi per connettere Microsoft Sentinel alle origini dati, usando le funzionalità di analisi predefinite per ricevere notifiche di eventuali eventi sospetti e, infine, si esamineranno le funzionalità di automazione.  
 
   
 
 **Tempo stimato**: 30-45 minuti
 
-#### Attività 1.  Creare un'istanza di Azure Sentinel.
+#### Attività 1.  Creare un'istanza di Microsoft Sentinel.
 
 1. Aprire Microsoft Edge. Nella barra degli indirizzi immettere **portal.azure.com**.
 
@@ -26,11 +26,11 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 3. Nell'angolo in alto a sinistra della schermata, accanto alla dicitura Microsoft Azure, selezionare l'icona Mostra menu Portale (le tre linee orizzontali, chiamata anche icona hamburger), quindi selezionare **Tutti i servizi**.  
 
-4. Nella casella dei servizi di filtro, immettere **Sentinel**, quindi selezionare **Azure Sentinel** dall'elenco.
+4. Nella casella per filtrare i servizi immettere **Microsoft Sentinel**, quindi selezionare **Microsoft Sentinel** nell'elenco.
 
-5. Dalla pagina di Azure Sentinel, selezionare **Crea Azure Sentinel**.
+5. Dalla pagina di Microsoft Sentinel selezionare **Crea Microsoft Sentinel**.
 
-6. Dalla pagina Aggiungi Azure Sentinel a un'area di lavoro, selezionare **Crea una nuova area di lavoro**.
+6. Dalla pagina Aggiungi Microsoft Sentinel a un'area di lavoro, selezionare **Crea una nuova area di lavoro**.
 
 7. Dalla scheda generale di Crea area di lavoro Log Analytics, inserire quanto segue:
     1. Sottoscrizione:  **Azure Pass – Sponsorizzazione**
@@ -48,17 +48,17 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 11. Se non si visualizza la nuova area di lavoro nell'elenco, selezionare **Aggiorna**, quindi **Aggiungi**.
 
-12. Una volta aggiunta la nuova area di lavoro, verrà visualizzata la pagina | Notizie e guide su Azure Sentinel.  Osservare i tre passaggi elencati nella pagina Guida introduttiva.
+12. Dopo aver aggiunto la nuova area di lavoro, verrà visualizzata la pagina | Notizie e guide di Microsoft Sentinel.  Osservare i tre passaggi elencati nella pagina Guida introduttiva.
 
 13. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
-#### Attività 2.  Una volta creata l'istanza di Azure Sentinel, ci si assicurerà di disporre dell'accesso necessario alle risorse implementate per il supporto di Azure Sentinel.  In questa attività si accederà alla pagina del controllo di accesso (IAM) per il gruppo di risorse creato con l'istanza di Azure Sentinel, si visualizzerà i ruoli disponibili e ci si assegnerà (amministratore MOD) il ruolo richiesto. L'assegnazione del ruolo a livello di gruppo di risorse garantirà che il ruolo si applicherà a tutte le risorse implementate per il supporto di Azure Sentinel.
+#### Attività 2.  Dopo aver creato l'istanza di Microsoft Sentinel, assicurarsi di disporre dell'accesso necessario alle risorse distribuite per il supporto di Microsoft Sentinel.  In questa attività si accederà alla pagina del controllo di accesso (IAM) per il gruppo di risorse creato con l'istanza di Microsoft Sentinel, verranno visualizzati i ruoli disponibili e ci si assegnerà (amministratore MOD) il ruolo richiesto. L'assegnazione del ruolo a livello di gruppo di risorse garantirà che il ruolo venga applicato a tutte le risorse distribuite per il supporto di Microsoft Sentinel.
 
-1. Dalla pagina di Azure Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Azure Sentinel, selezionare **Tutti i servizi**.
+1. Nell'angolo in alto a sinistra della pagina di Microsoft Sentinel, sopra a dove è visualizzato Microsoft Sentinel, selezionare **Tutti i servizi**.
 
 2. Nella casella dei servizi del filtro, immettere i gruppi di risorse, quindi dall'elenco fornito selezionare **Gruppi di risorse**.
 
-3. Dalla pagina Gruppi di risorse, selezionare il gruppo di risorse creato con Azure Sentinel, **SC900-ResourceGroup**.
+3. Dalla pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-ResourceGroup**.
 
 4. Dalla pagina SC900-ResourceGroup, selezionare **Controllo di accesso (IAM)** dal riquadro di spostamento.
 
@@ -66,7 +66,7 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 6. Dalla pagina Controllo di accesso selezionare **+Aggiungi**, quindi selezionare **Add role assignment** (Aggiungi assegnazione di ruolo).
 
-7. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Selezionare la freccia a discesa nel campo Seleziona un ruolo per visualizzare i ruoli disponibili.  Per questo lab, selezionare **Proprietario**.  NOTA:  Come procedura consigliata si dovrebbe assegnare il privilegio minimo richiesto per il ruolo.  Per riferimento, controllare le autorizzazioni in Azure Sentinel  https://docs.microsoft.com/it-it/azure/sentinel/roles
+7. Si apre la finestra Add role assignment (Aggiungi assegnazione di ruolo).  Selezionare la freccia a discesa nel campo Seleziona un ruolo per visualizzare i ruoli disponibili.  Per questo lab, selezionare **Proprietario**.  NOTA:  Come procedura consigliata si dovrebbe assegnare il privilegio minimo richiesto per il ruolo.  Per riferimento, controllare le autorizzazioni in Microsoft Sentinel:  https://docs.microsoft.com/it-it/azure/sentinel/roles
 
 8. Dall'elenco degli utenti visualizzati, selezionare **Amministratore MOD**.
 
@@ -76,13 +76,13 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 11. Tornare alla pagina Tutti i servizi di Azure, selezionando **Tutti i servizi** dall'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Gruppi di risorse.
 
-#### Attività 3.  In questa attività si esaminerà il processo di connessione di Azure Sentinel all'origine dati per iniziare a raccogliere dati. Nota: la visualizzazione dello stato connesso di un connettore può impiegare un po' di tempo (circa 30 minuti, a seconda del tenant).
+#### Attività 3.  In questa attività si esaminerà il processo di connessione di Microsoft Sentinel all'origine dati per iniziare a raccogliere dati. Nota: la visualizzazione dello stato connesso per un connettore può richiedere un po' di tempo (circa 30 minuti, a seconda del tenant).
 
-1. Nella casella Servizio del filtro della pagina Tutti i servizi, immettere **Azure Sentinel**, quindi selezionare **Azure Sentinel** dall'elenco dei risultati. 
+1. Nella casella Filtra servizi della pagina Tutti i servizi immettere **Microsoft Sentinel**, quindi selezionare **Microsoft Sentinel** nell'elenco. 
 
-2. Dalla pagina di Azure Sentinel, selezionare l'area di lavoro creata con l'istanza di Azure Sentinel, **SC900-LogAnalytics-workspace**.
+2. Dalla pagina di Microsoft Sentinel selezionare l'area di lavoro creata con l'istanza di Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
-3. Il primo passaggio con Azure Sentinel è quello di essere in grado di raccogliere dati. Dal riquadro di spostamento sinistro selezionare **Connettori dati**, elencati sotto la configurazione.
+3. Il primo passaggio con Microsoft Sentinel è quello di essere in grado di raccogliere dati. Dal riquadro di spostamento sinistro selezionare **Connettori dati**, elencati sotto la configurazione.
 
 4. Dalla pagina Connettori dati, scorrere verso il basso nella finestra principale per visualizzare l'elenco completo dei connettori disponibili. Nella casella di ricerca della pagina dei connettori dati, immettere **Azure** e poi dall'elenco selezionare **Azure Active Directory**.
 
@@ -90,7 +90,7 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 6. Dalla pagina del connettore di Azure Active Directory, esaminare la descrizione e notare il contenuto correlato che include cartelle di lavoro, query e modelli di regole analitiche.  
 
-7. La scheda delle istruzioni nella finestra principale illustra i requisiti per l'integrazione di Azure Sentinel con Azure Active Directory.   Sotto Configurazione, selezionare **Log di accesso**, quindi selezionare Applica modifiche (è possibile scegliere più connettori).
+7. La scheda delle istruzioni nella finestra principale illustra i requisiti per l'integrazione di Microsoft Sentinel con Azure Active Directory.   In Configurazione selezionare **Log di accesso**, quindi selezionare Applica modifiche (è possibile scegliere più connettori).
 
 8. Dalla scheda Passaggi successivi, notare l'elenco delle cartelle di lavoro raccomandate.   Sotto alle cartelle di lavoro raccomandate, selezionare **Log di accesso di Azure** (è possibile scegliere cartelle di lavoro aggiuntive).
 
@@ -98,7 +98,7 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 10. Dalla finestra Log di accesso di Azure AD che si apre, esaminare la descrizione e selezionare **Visualizza modello**.  Uscire dal modello selezionando la **X** nell'angolo in alto a destra dello schermo.  Selezionare **Salva** dalla parte inferiore della pagina, quindi selezionare **OK** per salvare la cartella di lavoro nella posizione predefinita.
 
-11. Dall'angolo in alto a sinistra della pagina Cartelle di lavoro, sopra Cartelle di lavoro, selezionare **Azure Sentinel**. In questo modo si torna alla pagina Connettori di dati di Azure Sentinel.
+11. Dall'angolo in alto a sinistra della pagina Cartelle di lavoro, sopra Cartelle di lavoro, selezionare **Microsoft Sentinel**. In questo modo si torna alla pagina Connettori di dati di Microsoft Sentinel.
 
 12. La parte alta della pagina dei connettori dati dovrebbe mostrare 1 connesso, per indicare che si è ora connessi ad Azure Active Directory.
 
@@ -112,7 +112,7 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 1. Dal riquadro di spostamento sinistro, selezionare **Analisi**.
 
-2. La pagina Analisi mostrerà le regole attive (il rilevamento avanzato degli attacchi multistadio è abilitato per impostazione predefinita) e fornirà anche l'accesso ai Modelli di regola.  Selezionare la scheda **Modelli di regola**.  Notare l'elenco dei modelli disponibili e i diversi modi per filtrare l'elenco.  Utilizzando gli avvisi di analisi integrati all'interno dell'area di lavoro di Azure Sentinel, è possibile ricevere una notifica quando si verifica qualcosa di sospetto.
+2. La pagina Analisi mostrerà le regole attive (il rilevamento avanzato degli attacchi multistadio è abilitato per impostazione predefinita) e fornirà anche l'accesso ai Modelli di regola.  Selezionare la scheda **Modelli di regola**.  Notare l'elenco dei modelli disponibili e i diversi modi per filtrare l'elenco.  Usando gli avvisi di analisi predefiniti all'interno dell'area di lavoro di Microsoft Sentinel, è possibile ricevere una notifica quando si verifica qualcosa di sospetto.
 
 3. Nella barra di ricerca immettere **Portale di Azure**.  Selezionare **Tentativi di accesso non riusciti al portale di Azure**.  
 
@@ -122,7 +122,7 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 6. Nella pagina Imposta logica regola è possibile definire la logica per la nuova regola di analisi. Il modello offre già alcune logiche e impostazioni predefinite.  Scorrere la pagina per visualizzare le impostazioni disponibili.  Lasciare i valori predefiniti. Selezionare **Avanti: Impostazioni degli eventi imprevisti (anteprima)>**.
 
-7. Con Impostazioni degli eventi imprevisti, gli avvisi di Azure Sentinel possono essere raggruppati in un evento imprevisto che dovrebbe essere esaminato. È possibile impostare se gli avvisi che vengono attivati da questa regola di analisi devono generare eventi imprevisti.  Lasciare le impostazioni predefinite e selezionare **Avanti: Risposta automatica >**.
+7. Con Impostazioni degli eventi imprevisti, gli avvisi di Microsoft Sentinel possono essere raggruppati in un evento imprevisto che dovrebbe essere esaminato. È possibile impostare se gli avvisi che vengono attivati da questa regola di analisi devono generare eventi imprevisti.  Lasciare le impostazioni predefinite e selezionare **Avanti: Risposta automatica >**.
 
 8. Nella scheda Risposta automatica è possibile aggiungere un playbook per automatizzare la risposta.  Analogamente, è possibile creare una regola di automazione dell'evento imprevisto.  Selezionare **+Aggiungi nuovo** sotto Automazione dell'evento imprevisto.  Viene aperta una finestra per creare una nuova regola di automazione.  Qualsiasi regola di automazione creata in questa pagina viene attivata dalla regola di analisi che si sta creando. Notare che è possibile aggiungere condizioni e impostare azioni per la regola.   Selezionare **Annulla** per uscire dalla finestra.
 
@@ -141,13 +141,13 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 4. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
 
-#### Attività 6.  Eliminare il gruppo di risorse di Azure Sentinel.  Azure Sentinel viene fatturato in base al volume di dati inseriti per l'analisi in Azure Sentinel. Sebbene la quantità di dati inseriti come conseguenza a questo lab sia minima, è consigliabile eliminare il gruppo di risorse di Azure Sentinel una volta completata l'esplorazione delle funzionalità delle funzionalità di Azure Sentinel.
+#### Attività 6.  Eliminare il gruppo di risorse di Microsoft Sentinel.  La fatturazione per Microsoft Sentinel avviene in base al volume di dati inseriti per l'analisi in Microsoft Sentinel. Sebbene la quantità di dati inseriti come conseguenza a questo lab sia minima, è consigliabile eliminare il gruppo di risorse di Microsoft Sentinel dopo aver completato l'esplorazione delle funzionalità di Microsoft Sentinel.
 
-1. Dalla pagina di Azure Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Azure Sentinel, selezionare **Tutti i servizi**.
+1. Dalla pagina di Microsoft Sentinel, nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Microsoft Sentinel, selezionare **Tutti i servizi**.
 
 2. Nella casella dei servizi del filtro, immettere i gruppi di risorse, quindi dall'elenco fornito selezionare **Gruppi di risorse**.
 
-3. Dalla pagina Gruppi di risorse, selezionare il gruppo di risorse creato con Azure Sentinel, **SC900-ResourceGroup**.
+3. Dalla pagina Gruppi di risorse selezionare il gruppo di risorse creato con Microsoft Sentinel, **SC900-ResourceGroup**.
 
 4. Dalla parte centrale in alto della pagina, selezionare **Elimina gruppo di risorse**.  Esaminare l'avviso.  Immettere il nome del gruppo di risorse, **SC900-ResourceGroup**, quindi selezionare **Elimina** dalla parte inferiore della pagina.  L'eliminazione del gruppo di risorse impiegherà diversi minuti.
 
@@ -156,4 +156,4 @@ In questo lab verrà presentato il processo per creare un'istanza di Azure Senti
 
 #### Verifica
 
-In questo lab è stato esaminato il processo per creare un'istanza di Azure Sentinel.  Sono state inoltre impostate le autorizzazioni per assicurarsi l'accesso alle risorse associate all'istanza di Azure Sentinel.  Una volta creata l'istanza di Azure Sentinel, sono stati esaminati i passaggi per connettere Sentinel alle origini di dati, usando regole di analisi integrate per ricevere notifiche su un evento sospetto, e infine è stata esplorata la funzionalità di automazione. Il lab è stato concluso eliminando il gruppo di risorse associato all'istanza di Azure Sentinel creata.
+In questo lab è stato esaminato il processo per creare un'istanza di Microsoft Sentinel.  Si è visto anche come configurare le autorizzazioni per garantire l'accesso alle risorse associate all'istanza di Microsoft Sentinel.  Dopo aver creato l'istanza di Microsoft Sentinel, sono stati illustrati i passaggi per connettere Microsoft Sentinel alle origini dati e usare le regole di analisi predefinite per ricevere notifiche per un evento sospetto, infine sono state esplorate le funzionalità di automazione. Il lab è terminato eliminando il gruppo di risorse associato all'istanza di Microsoft Sentinel creata.
