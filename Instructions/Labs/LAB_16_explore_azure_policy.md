@@ -23,15 +23,15 @@ Criteri di Azure consente di applicare gli standard dell'organizzazione e di val
     1. Immettere la password di amministratore, che dovrebbe essere fornita dal proprio provider di hosting del lab. Selezionare **Accedi**.
     1. Quando compare la domanda se rimanere connessi, selezionare **Sì**.
 
-1. Ora ci si trova nel portale di Azure.  Sotto la dicitura Servizi di Azure, selezionare **Criteri**. Viene aperta la home page Criteri che fornisce una vista del dashboard.  L'ambito nel quale vengono visualizzate le informazioni è determinato dall'Azure Pass che si sta utilizzando, come parte di questo lab.   Notare le informazioni disponibili nel dashboard.
+1. Ora ci si trova nel portale di Azure.  Nella casella di ricerca, nella barra blu nella parte superiore della pagina accanto a Microsoft Azure, inserire **criteri**, quindi selezionare **Criteri** dai risultati della ricerca. Viene aperta la home page Criteri che fornisce una vista del dashboard.  L'ambito nel quale vengono visualizzate le informazioni è determinato dall'Azure Pass che si sta utilizzando, come parte di questo lab.   Notare le informazioni disponibili nel dashboard.
 
-1. C'è un elemento, denominato ASC Default (Azure Security Center) il cui ambito è Azure Pass – Sponsorizzazione.   Selezionare **ASC Default**.
+1. È presente la voce ASC Default (ASC sta per Centro sicurezza di Azure, ora denominato Microsoft Defender for Cloud) con ambito Azure Pass – Sponsorizzazione.   Selezionare **ASC Default**.
 
-1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione).  
+1. In alto sulla pagina, sotto Essentials, si possono vedere nome, descrizione e altre informazioni essenziali.  Leggere la descrizione (far scorrere il mouse sopra la descrizione). NOTA: il campo della descrizione fa riferimento al Centro sicurezza di Azure, rinominato Microsoft Defender for Cloud.
 
-1. Notare che le informazioni fornite dal dashboard vengono aggiornate per riflettere l'elemento selezionato, la definizione dell'iniziativa ASC Default.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale.  In questo caso, i criteri sono relativi allo stato di conformità del Centro sicurezza di Azure (ASC).  Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
+1. Notare che le informazioni fornite dal dashboard vengono aggiornate per riflettere l'elemento selezionato, la definizione dell'iniziativa ASC Default.  Si ricordi che la definizione di un'iniziativa è una raccolta di definizioni di criteri che mirano a raggiungere un singolo obiettivo generale. Le informazioni possono essere visualizzate per gruppi, criteri, risorse non conformi o eventi.
 
-1. Ritornare alla home page dei criteri selezionando **Criteri** nell'angolo in alto a destra della schermata, sopra la dicitura ASC Default.
+1. Uscire dalla pagina ASC e tornare alla home page dei criteri selezionando la **X** nell'angolo in alto a destra della finestra.
 
 1. Dal riquadro di spostamento sinistro, selezionare **Attività iniziali**.  Vengono visualizzare le varie opzioni disponibili, inclusa l'opzione per sfogliare i criteri integrati e assegnare i criteri su larga scala, e si possono creare definizioni di criteri personalizzate per il proprio ambiente, consigliare assegnazioni di criteri e molto altro ancora.
 

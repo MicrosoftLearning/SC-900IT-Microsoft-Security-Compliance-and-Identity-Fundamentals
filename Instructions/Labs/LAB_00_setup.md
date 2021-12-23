@@ -47,8 +47,6 @@ In questa attività di configurazione, si abiliterà la funzionalità Log di con
 
 1. In Interfacce di amministrazione selezionare **Conformità**.  Si apre una nuova pagina del browser alla pagina di benvenuto del Centro conformità Microsoft 365.  
 
-1. Dal riquadro di spostamento sinistro del Centro conformità Microsoft 365 e poi selezionare **Mostra tutto**.
-
 1. Dal riquadro di spostamento sinistro, sotto Soluzioni, selezionare **Controllo**.  Nota: la funzionalità di controllo è accessibile dalla home page di Microsoft 365 Defender (in precedenza chiamato Centro sicurezza Microsoft 365).
 
 1. Verificare che la scheda **Cerca** sia selezionata (sottolineata).

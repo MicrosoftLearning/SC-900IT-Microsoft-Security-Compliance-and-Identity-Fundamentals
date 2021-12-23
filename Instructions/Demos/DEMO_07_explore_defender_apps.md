@@ -1,14 +1,14 @@
 ---
 Demo:
-    title: 'Microsoft Cloud App Security'
+    title: 'Microsoft Defender for Cloud Apps'
     module: 'Modulo 3. Lezione 4. Descrizione delle funzionalità delle soluzioni di sicurezza Microsoft: descrizione della protezione dalle minacce con Microsoft 365 Defender'
 ---
 
 
-# Demo: Microsoft Cloud App Security
+# Demo: Microsoft Defender for Cloud Apps
 
 ### Scenario demo
-Questa demo mostra le funzionalità di Microsoft Cloud App Security.  Lo studente verrà guidato attraverso le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.  Nota:  un'organizzazione deve avere una licenza per utilizzare Microsoft Cloud App Security, che è un servizio in abbonamento basato sull'utente.  
+Questa demo illustrerà le funzionalità di Microsoft Defender for Cloud Apps.  Lo studente verrà guidato attraverso le informazioni disponibili nel dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione tramite i criteri.  Nota:  un'organizzazione deve avere una licenza per usare Microsoft Defender for Cloud Apps, che è un servizio in abbonamento basato sull'utente.  
 
 #### Demo Parte 1: Esplorare Cloud Discovery.
 
@@ -22,7 +22,7 @@ Questa demo mostra le funzionalità di Microsoft Cloud App Security.  Lo student
 
 1. Dalla parte inferiore del riquadro di spostamento sinistro della pagina di Microsoft 365 Defender, selezionare **Altre risorse**.
 
-1. Nella scheda **Microsoft Cloud App Security**, selezionare **Apri**.  Si apre una nuova pagina del browser sul dashboard di Cloud App Security.  Osservare le schede di informazioni disponibili.  È possibile che non sia visibile alcuna informazione sulle schede, dato che questo è un ambiente tenant di laboratorio preconfigurato che non è stato utilizzato attivamente.  
+1. Nella scheda **Microsoft Defender for Cloud Apps** selezionare **Apri**.  Si apre una nuova pagina del browser nel dashboard di Cloud App Security.  Osservare le schede di informazioni disponibili.  È possibile che non sia visibile alcuna informazione sulle schede, dato che questo è un ambiente tenant di laboratorio preconfigurato che non è stato utilizzato attivamente.  
 
 1. Dal riquadro di spostamento sinistro, selezionare **Individua**, quindi dal menu a discesa selezionare **Dashboard Cloud Discovery**.  Il dashboard include una panoramica delle app individuate, categorie di app, livelli di rischio e altro.  
 
@@ -63,13 +63,13 @@ Questa demo mostra le funzionalità di Microsoft Cloud App Security.  Lo student
 1. Tenere aperta la pagina poiché verrà usata nell'attività successiva.
 
 
-#### Demo Parte 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Cloud App Security.
+#### Demo Parte 3: In questa attività si esploreranno le pagine dei criteri e degli avvisi in Microsoft Defender for Cloud Apps.
 
-1. Dal riquadro di spostamento a sinistra, sotto dove è visualizzato Controllo, selezionare **Criteri**.  I criteri elencati forniscono informazioni sul numero di avvisi generati per criterio, gravità e così via. La selezione di una voce fornisce informazioni più dettagliate relative al criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.  
+1. Dal riquadro di spostamento sinistro, sotto dove è visualizzato Controllo, selezionare **Criteri**.  I criteri elencati forniscono informazioni sul numero di avvisi generati per criterio, gravità e così via. La selezione di una voce fornisce informazioni più dettagliate relative al criterio. Selezionare una voce dall'elenco, ad esempio, **Accesso a rischio**.  
 
 1. Dal riquadro di spostamento sinistro, selezionare **Avvisi**.  Se sono elencati degli avvisi, selezionare una voce dall'elenco degli avvisi. Esaminare le informazioni fornite.  Dal lato superiore destro della finestra, selezionare **Chiudi avviso** per visualizzare le opzioni di chiusura dell'avviso.  
 
 1. Chiudere la finestra del browser.
 
 #### Verifica
-Questa demo ha illustrato le funzionalità di Microsoft Cloud App Security.  Sono state illustrate le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione attraverso i criteri.
+In questa demo sono state presentate le funzionalità di Microsoft Defender for Cloud Apps.  Sono state illustrate le informazioni disponibili sul dashboard di Cloud Discovery, nonché le funzionalità disponibili per esaminare i risultati e controllare l'impatto sull'organizzazione tramite i criteri.
