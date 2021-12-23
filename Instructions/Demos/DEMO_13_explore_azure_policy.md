@@ -60,7 +60,7 @@ Questa demo illustra il processo di configurazione di un criterio di Azure e l'i
 
 1. Comparirà un messaggio di errore nella parte superiore dello schermo, "Non è stato possibile creare il gruppo di risorse. Visualizza i dettagli dell'errore".  Selezionare **Visualizza dettagli errore**. La condizione che fa parte dei criteri di Azure non è stata soddisfatta, quindi la creazione del gruppo di risorse è stata bloccata per non conformità. Nota: se non viene visualizzato il messaggio di errore e il gruppo di risorse viene creato, significa che l'applicazione del criterio non è ancora avvenuta.  Accedere alla pagina dei criteri per il criterio creato nell'attività precedente e una volta che il criterio ha effetto si vedrà che la risorsa non è conforme.  La pagina dei dettagli includerà il messaggio di non conformità.
 
-1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa ‘SC900-Labs' non è consentita dai criteri."  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
+1. Il riepilogo dell'errore mostra il seguente tipo di errore, "La risorsa ‘SC900-Labs’ non è consentita dai criteri."  Chiudere questa finestra selezionando la **X** nell'angolo in alto a sinistra dello schermo.
 
 1. Dalla finestra Crea un gruppo di risorse selezionare **<Precedente**.
 

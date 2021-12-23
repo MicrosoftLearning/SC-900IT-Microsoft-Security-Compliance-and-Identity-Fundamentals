@@ -67,7 +67,7 @@ In questo lab verrà esplorato Microsoft Defender for Cloud e si apprenderà in 
 #### Attività 3.  Ricordarsi che Microsoft Defender for Cloud viene offerto in due modalità: senza funzionalità di sicurezza avanzate (gratuitamente) e con funzionalità di sicurezza avanzate disponibili tramite i piani per Microsoft Defender for Cloud. In questa attività di scoprirà come abilitare/disabilitare i vari piani di Microsoft Defender for Cloud.
 
 1.	Dalla pagina Panoramica di Microsoft Defender for Cloud selezionare **Impostazioni ambiente** dal riquadro di spostamento sinistro.
-1. Selezionare il simbolo di maggiore **>**accanto a Gruppo radice tenant per espandere le informazioni (non selezionare direttamente Gruppo radice tenant perché si verrebbe reindirizzati a una pagina diversa), quindi selezionare **Azure Pass - Sponsorizzazione**.
+1. Selezionare il simbolo di maggiore **>** accanto a Gruppo radice tenant per espandere le informazioni (non selezionare direttamente Gruppo radice tenant perché si verrebbe reindirizzati a una pagina diversa), quindi selezionare **Azure Pass - Sponsorizzazione**.
 1.	Nella pagina Piani di Defender notare che è possibile selezionare Abilita tutti oppure selezionare singoli piani di Defender. Lasciare le impostazioni esistenti con tutti i piani impostati su Off.
 1.	Ora è possibile chiudere la scheda del browser per uscire dal portale di Azure.
 

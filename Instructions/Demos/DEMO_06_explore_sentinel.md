@@ -75,7 +75,7 @@ Questa demo illustrerà il processo di creazione di un'istanza di Microsoft Sent
 
 1. La scheda delle istruzioni nella finestra principale illustra i prerequisiti per l'integrazione di Microsoft Sentinel con Azure Active Directory.   In Configurazione selezionare **Log di accesso**, quindi selezionare Applica modifiche (è possibile scegliere più connettori).  Nota: possono volerci alcuni minuti per vedere lo stato connesso del connettore (circa 30 minuti).  Per riferimento:
     1. Controllare le autorizzazioni in Microsoft Sentinel:  https://docs.microsoft.com/it-it/azure/sentinel/roles
-    1. Connettersi ad Azure Active Directory  https://docs.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory
+    1. Connettersi ad Azure Active Directory:  https://docs.microsoft.com/it-it/azure/sentinel/connect-azure-active-directory
 
 1. Dalla scheda Passaggi successivi, notare l'elenco delle cartelle di lavoro raccomandate.   Sotto alle cartelle di lavoro raccomandate, selezionare **Log di accesso di Azure** (è possibile scegliere cartelle di lavoro aggiuntive).
 
