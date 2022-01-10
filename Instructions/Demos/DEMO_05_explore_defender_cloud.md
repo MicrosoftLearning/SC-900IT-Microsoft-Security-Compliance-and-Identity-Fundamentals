@@ -18,7 +18,7 @@ Questa demo illustra Microsoft Defender for Cloud e mostra come è possibile usa
 
 1. Osservare le informazioni disponibili nella pagina Panoramica di Microsoft Defender for Cloud.  Nota: potrebbe essere visualizzata una casella di informazioni blu in alto nella pagina la quale indica che la visualizzazione delle informazioni potrebbe essere limitata.  Non selezionarlo (l'elaborazione può richiedere fino a 15 minuti e non fa alcuna differenza per questa demo).
 
-1. Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede che rappresentano Punteggio di sicurezza, Conformità alle normative, Informazioni dettagliate, Azure Defender e altro.  
+1. Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede che rappresentano Punteggio di sicurezza, Conformità alle normative, Informazioni dettagliate e altro.  
 
 1. Nella parte superiore della pagina selezionare **Assessed resources** (Risorse valutate).  (Si noti che questo equivale alla selezione di Inventario nel riquadro di spostamento sinistro della home page di Microsoft Defender for Cloud).
     1. In questo modo si verrà reindirizzati alla pagina **Inventario** che mostra la sottoscrizione di Azure Pass.  Selezionare **Azure Pass – Sponsorizzazione**.
@@ -49,3 +49,4 @@ Questa demo illustra Microsoft Defender for Cloud e mostra come è possibile usa
 ## Verifica
 
 In questa demo è stato presentato Microsoft Defender for Cloud e illustrato come è possibile usare Azure Secure Score per migliorare il comportamento di sicurezza di un'organizzazione.
+

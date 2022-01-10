@@ -27,7 +27,7 @@ In questo lab verrà esplorato Microsoft Defender for Cloud e si apprenderà in 
     1. Per assicurarsi di ottenere la visibilità a livello di tenant, assegnarsi il ruolo necessario.  Selezionare **Amministratore sicurezza**, quindi selezionare **Get access** (Ottieni accesso) nella parte inferiore della pagina.
     1. Verrà probabilmente visualizzato un messaggio del tipo "Il gruppo di gestione radice non esiste".  In base alla descrizione, verrà creato dal sistema il gruppo per conto dell'utente.  Per il completamento possono essere richiesti fino a 15 minuti, ma l'operazione è in genere più veloce.  Una volta concesso l'accesso, selezionare **Microsoft Defender for Cloud** nell'angolo in alto a sinistra della pagina, sopra a dove è visualizzato Get permissions (Ottieni autorizzazioni), quindi aggiornare la pagina Panoramica di Microsoft Defender for Cloud.
 
-1. Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede che rappresentano Punteggio di sicurezza, Conformità alle normative, Informazioni dettagliate, Azure Defender e altro.  
+1. Le informazioni nella parte superiore della pagina includono il numero di sottoscrizioni Azure, il numero di risorse valutate, il numero di raccomandazioni attive ed eventuali avvisi di sicurezza.  Il corpo principale della pagina contiene schede che rappresentano Punteggio di sicurezza, Conformità alle normative, Informazioni dettagliate e altro.  
 
 1. Nella parte superiore della pagina selezionare **Assessed resources** (Risorse valutate).  (Si noti che questo equivale alla selezione di Inventario nel riquadro di spostamento sinistro della home page di Microsoft Defender for Cloud).
     1. In questo modo si verrà reindirizzati alla pagina **Inventario** che mostra la sottoscrizione di Azure Pass.  Selezionare **Azure Pass – Sponsorizzazione**.
@@ -74,3 +74,4 @@ In questo lab verrà esplorato Microsoft Defender for Cloud e si apprenderà in 
 
 #### Verifica
 In questo lab è stato esplorato Microsoft Defender for Cloud e si è appreso in che modo Azure Secure Score può essere usato per migliorare il comportamento di sicurezza dell'organizzazione.
+
